@@ -16,7 +16,7 @@ nailong-classification是基于ResNET的奶龙分类模型，在约500张奶龙�
 数据集结构如下：
 ```
 data
-├── all
+├── source
 │   ├── nailong
 │   ├── 奶龙_角色_黄颜色
 │   ├── 小火龙
@@ -28,7 +28,6 @@ data
 │   ├── 黄色_卡通_动漫
 │   ├── 黄色_圆润
 │   └── 黄颜色_表情包
-├── temp.py
 ├── test
 │   ├── nailong
 │   └── other
