@@ -53,7 +53,7 @@ load = torch.load(model_path,weights_only=True)
 state_dict = load['model']
 model.load_state_dict(state_dict)
 
-model = model.cuda()
+model = model.to(device)
 model.eval()
 
 
